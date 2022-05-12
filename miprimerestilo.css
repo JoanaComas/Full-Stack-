@@ -2,11 +2,15 @@ p {
     color:chocolate
 }
 h1 {
-    color:crimson
+    color:rgb(240, 76, 109)
 }
 p {
-   background-color:bisque
+   background-color:rgb(216, 208, 198)
 }
-#subtitulo {
-    color:blueviolet
+
+
+#subtitulo{
+    color: blueviolet;
 }
+
+    
