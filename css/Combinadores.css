@@ -1,0 +1,19 @@
+h2 + p {
+    color: red;
+    }
+  
+h2 ~ p {
+        color:blueviolet;
+    }
+
+div > P {
+    color:greenyellow;
+}
+
+p {
+    color: blue;
+}
+
+div p {
+    color: rgb(235, 50, 90);
+}

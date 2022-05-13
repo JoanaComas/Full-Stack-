@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- vinculado a css combinadores -->
+    <link rel="stylesheet" href="../css/Combinadores.css">
+    <title>Document</title>
+</head>
+<body>
+<!-- Tipos de selectores de combinación:
+1.SELECTOR ADYACENTE INMEDIATO ELEMENTO + ELEMENTO= El primer elemento se toma como referencia, se aplica en el elemento que le sigue.
+2. SELECTOR ADYACENTE GENERAL ELEMENTO ~ ELEMENTO= aplica a todos los elementos adyacentes, independientemente de si se encuentran o no inmediatamente adyacente
+3. Selector de descendencia (>): aplica a los elementos inmediatamente descendientes 
+4. Selector de descendencia general ( ): aplica a todos los elementos descendientes, independientemente si son o no inmediatamente descendientes
+*La anotación !important permite que una propiedad sea la que prevalece-->
+    <div> 
+        <!-- Prueba del punto 3, el span no es descenciente directo del Div por eso no se aplica -->
+        <h2> Prueba de selectores combinados</h2>
+        <p>Buenos días</p>
+           <span>
+              <p>prueba de color 3</p> 
+            </span>
+        <p>Buenos días</p>
+    </div>
+<h2>Prueba punto 2</h2>
+<p>Prueba de color</p>
+
+</body>
+</html>

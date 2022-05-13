@@ -1,0 +1,22 @@
+div{
+    width: 360px;px; 
+    padding: 20px;px;px; 
+    border:8px solid rgb(250, 55, 81); 
+    margin:0;
+}
+
+#div1 {
+    width: 320px; 
+    padding:10px;
+    margin: 15%;;
+    background-color: cadetblue;
+    border: 12px solid rgb(34, 119, 119)
+}
+
+#div2 {
+    width: 50%; 
+    padding:20px;px;
+    margin: 15%;
+    margin-top: -15%;
+    margin-left: 2%;
+}
